@@ -1,0 +1,51 @@
+@media only screen and (max-width: 750px) {
+    .imgMenu  {
+        width:  100px;
+        height: 100px;
+    }
+    .menuPrice {
+        font-size: 20px;
+    }
+    .menu{
+        font-size: 15px;
+        padding-top: 20px;
+    }
+}
+@media only screen and (max-width: 900px)  {
+    .drinkImg01, .drinkImg02 {
+        width: 250px;
+        height: 300px;
+
+    }
+    #drinkRight,#drinkLeft{
+        width: 100%;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 650px) {
+    #drinkSection{
+        display: block;
+    }
+    #nameSection{
+        height: 400px;
+    }
+}
+@media only screen and (max-width: 450px)  {
+    #divMenu{
+        display: block;
+    } 
+    #topNav ul li a{
+        font-size: 13px;
+    }
+    #nameSection{
+       height: 400px; 
+    }
+}
+@media only screen and (max-width: 350px) {
+    #nameSection{
+        height: 400px;
+    }
+    #topNav ul li a{
+        font-size: 9px;
+    }
+}
